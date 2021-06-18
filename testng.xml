@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TCare_Automation">			
+	<test name="NormalFlow">
+		<classes>
+			<class name="testcases.Normal_Low_High_Flow" />
+		</classes>
+	</test> 		
+</suite> 
+
+

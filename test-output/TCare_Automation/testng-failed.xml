@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [TCare_Automation]">
+  <test parallel="none" name="Login_Validation(failed)">
+    <classes>
+      <class name="testcases.Tcare_Login_Testcase">
+        <methods>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Login_Testcase -->
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+    </classes>
+  </test> <!-- Login_Validation(failed) -->
+  <test parallel="none" name="CreateCase(failed)">
+    <classes>
+      <class name="testcases.Normal_Low_High_Flow">
+        <methods>
+          <include name="create_case"/>
+          <include name="carereciver_details"/>
+          <include name="depression"/>
+          <include name="goals"/>
+          <include name="add_caregiver"/>
+          <include name="assessment_page1"/>
+          <include name="caregiver_details1"/>
+          <include name="inten_place"/>
+          <include name="caregiver_details"/>
+          <include name="final_careplan"/>
+          <include name="cg_res"/>
+          <include name="mandatory"/>
+          <include name="cg_burden"/>
+          <include name="adl"/>
+          <include name="problem_behaviour"/>
+          <include name="summary"/>
+          <include name="Identity_discrepancy"/>
+          <include name="create_assessment"/>
+          <include name="PrintPaper_Form"/>
+          <include name="cr_res1"/>
+        </methods>
+      </class> <!-- testcases.Normal_Low_High_Flow -->
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+    </classes>
+  </test> <!-- CreateCase(failed) -->
+  <test parallel="none" name="Forgetpass(failed)">
+    <classes>
+      <class name="testcases.ForgetPassword">
+        <methods>
+          <include name="invalid_UName"/>
+          <include name="valid_UName"/>
+          <include name="empty_Fields"/>
+        </methods>
+      </class> <!-- testcases.ForgetPassword -->
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+    </classes>
+  </test> <!-- Forgetpass(failed) -->
+  <test parallel="none" name="Forgetusername(failed)">
+    <classes>
+      <class name="testcases.ForgetUsername">
+        <methods>
+          <include name="empty_email"/>
+          <include name="valid_email"/>
+          <include name="Invalid_email"/>
+        </methods>
+      </class> <!-- testcases.ForgetUsername -->
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+    </classes>
+  </test> <!-- Forgetusername(failed) -->
+  <test parallel="none" name="Userblock(failed)">
+    <classes>
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+      <class name="testcases.Userblock_Scenerio">
+        <methods>
+          <include name="unblock"/>
+          <include name="authentication_error"/>
+          <include name="click_here"/>
+        </methods>
+      </class> <!-- testcases.Userblock_Scenerio -->
+    </classes>
+  </test> <!-- Userblock(failed) -->
+  <test parallel="none" name="closed cases(failed)">
+    <classes>
+      <class name="testcases.Tcare_Case_CloseandReopen">
+        <methods>
+          <include name="Tcare_CloseandReopen_case"/>
+          <include name="launch_browser"/>
+          <include name="tear_down"/>
+          <include name="Tcare_login_case"/>
+        </methods>
+      </class> <!-- testcases.Tcare_Case_CloseandReopen -->
+    </classes>
+  </test> <!-- closed cases(failed) -->
+</suite> <!-- Failed suite [TCare_Automation] -->
